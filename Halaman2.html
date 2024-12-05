@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman 2</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #ece9e6; /* fallback for older browsers */
+            background: linear-gradient(to right, #ffffff, #ece9e6);
+            font-family: Arial, sans-serif;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .player {
+            margin-top: 30vh;
+            width: 20%;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .player audio {
+            width: 100%;
+            margin-top: px;
+        }
+    </style>
+</head>
+<body>
+    <img src="media/demon-slayer-3840x2160-17927.jpg" alt="Background">
+    <div class="player">
+        <h2>Web Pemutar Musik</h2>
+        <p>Ahmad Zaini</p>
+        <h4>Tanjiro No Uta</h4>
+        <audio controls autoplay>
+            <source src="media/Tanjiro no Uta.mp3" type="audio/mpeg">
+            Buka di Pc Coba
+        </audio>
+    </div>
+</body>
+</html>
