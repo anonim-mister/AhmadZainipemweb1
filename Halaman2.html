@@ -28,8 +28,9 @@
         }
 
         .player {
-            margin-top: 30vh;
-            width: 20%;
+            margin-top: 20vh;
+            width: 90%;
+            max-width: 400px;
             padding: 20px;
             background: rgba(255, 255, 255, 0.1);
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -41,9 +42,43 @@
             text-align: center;
         }
 
+        .player h2, .player p, .player h4 {
+            margin: 10px 0;
+        }
+
         .player audio {
             width: 100%;
-            margin-top: px;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .player {
+                margin-top: 15vh;
+                padding: 15px;
+            }
+
+            .player h2 {
+                font-size: 1.5rem;
+            }
+
+            .player h4 {
+                font-size: 1.2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .player {
+                margin-top: 10vh;
+                padding: 10px;
+            }
+
+            .player h2 {
+                font-size: 1.2rem;
+            }
+
+            .player h4 {
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
